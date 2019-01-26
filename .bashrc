@@ -12,7 +12,7 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 #some alias
-alias ll='ls -la --color'
+alias ll='ls -lah --color'
 alias please='sudo $(history -p !!)'
 
 #colorize PS1
